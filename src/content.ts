@@ -97,6 +97,8 @@ export const loveReasons = [
   "The way you make me feel that we are a team.",
   "Your heart, your mind, and the person you are becoming.",
   "Because every version of the future I look forward to has you somewhere in it."
+  "Because you make the ordinary feel worth remembering.",
+  "Because choosing you, again and again, feels like a beautiful thing."
 ];
 
 export const timeline = [
