@@ -27,3 +27,7 @@ Most copy and story content lives in `src/content.ts`: `timeline` (relationship 
 
 ## Deploy with Netlify
 Build command: `npm run build`; publish directory: `dist`. Connect the repository and deploy.
+
+## Add the personal photo archive
+
+The app expects the 19 gallery photographs under `public/images/` using the filenames referenced in `src/main.tsx` and `src/content.ts`. The source repository does not yet contain those binary photo files. The complete project bundle includes them; extract it and upload its `public/images/` folder to this repository (GitHub → Add file → Upload files) before deploying so the personal gallery and hero photography appear. Keep the filenames unchanged. The written copy and layout work without any backend.
