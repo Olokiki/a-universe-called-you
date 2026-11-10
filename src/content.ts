@@ -102,7 +102,7 @@ export const loveReasons = [
 ];
 
 export const timeline = [
-  { date: 'THE BEGINNING', title: 'The day our story found its first page', copy: 'Somehow, among all the people and all the possible stories, ours began. I still think that is a lovely thing.', tag: 'Where it started', image: import.meta.env.BASE_URL+'images/IMG_0288.webp' },
+  { date: 'THE BEGINNING', title: 'The day our story found its first page', copy: 'Somehow, among all the people and all the possible stories, ours began. I still think that is a lovely thing.', tag: 'Where it started', image: import.meta.env.BASE_URL+'images/Screenshot 2026-11-10 230504.png' },
   { date: 'A LITTLE LATER', title: 'When talking to you became a habit', copy: 'One conversation became another. Then I started looking forward to hearing from you in ways I could not quite explain.', tag: 'The little things', image: import.meta.env.BASE_URL+'images/IMG_2891.webp' },
   { date: 'FAVOURITE CHAPTER', title: 'The moments that feel like us', copy: 'The spontaneous plans, the laughter, the photographs that make me smile before I even remember why. These are the things I want to keep.', tag: 'Us, being us', image: import.meta.env.BASE_URL+'images/IMG_5713.webp' },
   { date: 'STILL UNFOLDING', title: 'Choosing each other, in real life', copy: 'Not every chapter is effortless. What matters to me is the care, the effort, the learning, and the choice to keep growing together.', tag: 'The real love story', image: import.meta.env.BASE_URL+'images/IMG_5753.webp' }
