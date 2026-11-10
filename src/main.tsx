@@ -5,7 +5,37 @@ import { ArrowDown, ArrowRight, ArrowUpRight, ChevronLeft, ChevronRight, Menu, S
 import { adventures, letters, loveReasons, timeline } from './content';
 import './style.css';
 const photos = [
- {src:import.meta.env.BASE_URL+'images/IMG_0288.webp',label:'A favourite frame',note:'One of those moments I wish I could press pause on.'},{src:import.meta.env.BASE_URL+'images/IMG_2891.webp',label:'The little things',note:'The best memories are often hiding in the ordinary.'},{src:import.meta.env.BASE_URL+'images/IMG_2892.webp',label:'A day to keep',note:'A little snapshot of a life I love sharing with you.'},{src:import.meta.env.BASE_URL+'images/IMG_2893.webp',label:'My favourite view',note:'Some pictures just feel like home.'},{src:import.meta.env.BASE_URL+'images/IMG_2894.webp',label:'Us, always',note:'More moments exactly like this, please.'},{src:import.meta.env.BASE_URL+'images/IMG_2895.webp',label:'A soft memory',note:'The kind of day that stays with me.'},{src:import.meta.env.BASE_URL+'images/IMG_2896.webp',label:'A reason to smile',note:'I can never look at this without smiling.'},{src:import.meta.env.BASE_URL+'images/IMG_2898.webp',label:'One for the archive',note:'Filed under: things I am grateful for.'},{src:import.meta.env.BASE_URL+'images/IMG_5683.webp',label:'A golden moment',note:'A moment worth keeping close.'},{src:import.meta.env.BASE_URL+'images/IMG_5693.webp',label:'Just because',note:'No special occasion needed.'},{src:import.meta.env.BASE_URL+'images/IMG_5703.webp',label:'A day with you',note:'My kind of beautiful.'},{src:import.meta.env.BASE_URL+'images/IMG_5713.webp',label:'The good days',note:'And the many more still to come.'},{src:import.meta.env.BASE_URL+'images/IMG_5723.webp',label:'A little joy',note:'Somewhere between the laughter and the memories.'},{src:import.meta.env.BASE_URL+'images/IMG_5733.webp',label:'A moment in time',note:'If I could revisit one afternoon, perhaps this one.'},{src:import.meta.env.BASE_URL+'images/IMG_5743.webp',label:'My person',note:'A favourite chapter in a favourite story.'},{src:import.meta.env.BASE_URL+'images/IMG_5753.webp',label:'One to remember',note:'There is so much I want to do with you.'},{src:import.meta.env.BASE_URL+'images/IMG_5763.webp',label:'More of this',note:'More life, more laughter, more us.'},{src:import.meta.env.BASE_URL+'images/IMG_6777.webp',label:'A sweet detail',note:'A little piece of our universe.'},{src:import.meta.env.BASE_URL+'images/IMG_9028.webp',label:'A frame from us',note:'Kept here, because it matters.'}
+ {src:import.meta.env.BASE_URL+'images/1.png',label:"A face worth celebrating",note:"That smile has a way of making an ordinary moment feel a little brighter."},
+ {src:import.meta.env.BASE_URL+'images/2.png',label:"Quiet confidence",note:"There is something special about the way you carry yourself."},
+ {src:import.meta.env.BASE_URL+'images/3.png',label:"The man behind the smile",note:"A reminder that your warmth is one of the things I admire most."},
+ {src:import.meta.env.BASE_URL+'images/4.png',label:"Made to stand out",note:"You have a presence that is unmistakably your own."},
+ {src:import.meta.env.BASE_URL+'images/5.png',label:"A little mischief",note:"I hope you never lose that playful side of you."},
+ {src:import.meta.env.BASE_URL+'images/6.png',label:"Simply handsome",note:"Some photographs need very few words. This is one of them."},
+ {src:import.meta.env.BASE_URL+'images/7.png',label:"The way you show up",note:"I admire the person you are, not just the things you do."},
+ {src:import.meta.env.BASE_URL+'images/8.png',label:"A natural original",note:"You never have to try to be anyone else. You are enough as you are."},
+ {src:import.meta.env.BASE_URL+'images/9.png',label:"That infectious energy",note:"You bring your own kind of light wherever you go."},
+ {src:import.meta.env.BASE_URL+'images/10.png',label:"A smile I know",note:"One of my favourite things will always be seeing you happy."},
+ {src:import.meta.env.BASE_URL+'images/11.png',label:"All in your element",note:"I love seeing you comfortable, confident and completely yourself."},
+ {src:import.meta.env.BASE_URL+'images/12.png',label:"A man with dreams",note:"I admire how much possibility you carry in the way you look ahead."},
+ {src:import.meta.env.BASE_URL+'images/13.png',label:"Strength and softness",note:"There is so much to appreciate in the many sides of you."},
+ {src:import.meta.env.BASE_URL+'images/14.png',label:"The details matter",note:"Even the little things about you are worth remembering."},
+ {src:import.meta.env.BASE_URL+'images/15.png',label:"A presence to remember",note:"You have a way of making a moment feel like yours."},
+ {src:import.meta.env.BASE_URL+'images/16.png',label:"Always becoming",note:"I am proud of the person you are and the person you are working towards."},
+ {src:import.meta.env.BASE_URL+'images/17.png',label:"Your own kind of magic",note:"There is nobody quite like you, and that is worth celebrating."},
+ {src:import.meta.env.BASE_URL+'images/18.png',label:"A favourite expression",note:"I could never get tired of that face or the joy behind it."},
+ {src:import.meta.env.BASE_URL+'images/19.png',label:"The confidence looks good",note:"Keep taking up space and being unapologetically yourself."},
+ {src:import.meta.env.BASE_URL+'images/20.png',label:"A moment of greatness",note:"A small frame of a man with so much ahead of him."},
+ {src:import.meta.env.BASE_URL+'images/21.png',label:"The laughter stays",note:"I hope life keeps giving you reasons to laugh like this."},
+ {src:import.meta.env.BASE_URL+'images/22.png',label:"A heart to admire",note:"Your character is every bit as special as your smile."},
+ {src:import.meta.env.BASE_URL+'images/23.png',label:"One of a kind",note:"You do not need to fit a mould. Your individuality is the point."},
+ {src:import.meta.env.BASE_URL+'images/24.png',label:"The determined side",note:"I see the effort you put into becoming the man you want to be."},
+ {src:import.meta.env.BASE_URL+'images/25.png',label:"A little more of you",note:"Every picture reveals another detail I am glad to know."},
+ {src:import.meta.env.BASE_URL+'images/26.png',label:"Looking like a favourite",note:"Somehow, you make being yourself look effortless."},
+ {src:import.meta.env.BASE_URL+'images/27.png',label:"The joy you bring",note:"May you always have reasons to feel this light and this happy."},
+ {src:import.meta.env.BASE_URL+'images/28.png',label:"A man worth cheering for",note:"I will always be in your corner, celebrating every step forward."},
+ {src:import.meta.env.BASE_URL+'images/29.png',label:"Unmistakably you",note:"The style, the smile, the spirit. All the little things that make you you."},
+ {src:import.meta.env.BASE_URL+'images/30.png',label:"More to come",note:"There are so many more versions of you I cannot wait to see thrive."},
+ {src:import.meta.env.BASE_URL+'images/31.png',label:"Today, we celebrate you",note:"Thirty-one frames, and still only a glimpse of how much there is to love about you."}
 ];
 const reveal={hidden:{opacity:0,y:28},visible:{opacity:1,y:0,transition:{duration:.8,ease:[.2,.7,.2,1]}}};
 function SectionIntro({eyebrow,title,text,light=false}:{eyebrow:string;title:React.ReactNode;text?:string;light?:boolean}){return <motion.div className={`section-intro ${light?'light':''}`} variants={reveal} initial="hidden" whileInView="visible" viewport={{once:true,amount:.2}}><span className="eyebrow"><i/>{eyebrow}</span><h2>{title}</h2>{text&&<p>{text}</p>}</motion.div>}
