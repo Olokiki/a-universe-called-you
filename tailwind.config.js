@@ -1,0 +1,1 @@
+export default { content: ['./index.html','./src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { fontFamily: { display: ['Cormorant Garamond','serif'], serif: ['Playfair Display','serif'], sans: ['DM Sans','sans-serif'] }, colors: { ink:'#11100f', cream:'#f1eadf', gold:'#c5a77b', wine:'#562d36' } } }, plugins: [] };
